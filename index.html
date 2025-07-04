@@ -1,78 +1,64 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Station Torreta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>V.E. BATIMENT</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', sans-serif; background: #f9fafb; color: #111827; line-height: 1.6; }
-    header, footer { background: #1f2937; color: white; text-align: center; padding: 30px; }
-    nav a { color: #fbbf24; margin: 0 12px; text-decoration: none; font-weight: 600; }
-    section { padding: 60px 20px; max-width: 1200px; margin: auto; text-align: center; }
-    h2 { color: #1f2937; margin-bottom: 20px; font-size: 2.4em; }
-    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-    .gallery img { width: 100%; border-radius: 8px; }
-    .contact-form input, .contact-form textarea {
-      width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
-    }
-    iframe { width: 100%; height: 300px; border: 0; border-radius: 8px; margin-top: 20px; }
+    body { margin: 0; font-family: 'Arial', sans-serif; background-color: #f9f9f9; color: #222; }
+    header { background: linear-gradient(to right, #2c3e50, #3498db); color: white; padding: 60px 20px; text-align: center; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #2c3e50; }
+    ul { line-height: 1.8; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 30px; }
+    .gallery img { width: 300px; height: 200px; object-fit: cover; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    footer { background-color: #2c3e50; color: white; text-align: center; padding: 30px 20px; margin-top: 40px; }
+    .contact p { font-size: 16px; line-height: 1.7; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>V.E. BATIMENT</h1>
-  <nav>
-    <a href="#about">Présentation</a>
-    <a href="#services">Services</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-    <a href="#map">Adresse</a>
-  </nav>
+  <h1>STATION TORRETA</h1>
+  <p>Your Trusted Fuel Partner in Tétouan</p>
 </header>
 
-<section id="about">
-  <h2>Présentation</h2>
-  <p>Basée à Les Mureaux, V.E. BATIMENT est une entreprise spécialisée dans la maçonnerie générale et les gros travaux de construction. Grâce à une équipe qualifiée, nous réalisons des chantiers sur mesure en respectant les normes de qualité et de sécurité.</p>
+<section>
+  <h2>About Us</h2>
+  <p>Station Torreta, led by Abdeslam Benkrimo, is a prominent fuel service station located in Tétouan. We are committed to providing reliable fuel services to our customers along the vital Ceuta–Torreta route.</p>
 </section>
 
-<section id="services">
-  <h2>Nos Services</h2>
-  <p>Gros œuvre de bâtiment, travaux de maçonnerie, fondations, rénovation structurelle, et accompagnement personnalisé pour tous vos projets de construction.</p>
+<section>
+  <h2>Our Services</h2>
+  <ul>
+    <li>Fuel Distribution (Gasoline & Diesel)</li>
+    <li>Retail Shop & Car Essentials</li>
+    <li>Vehicle Maintenance & Assistance</li>
+    <li>24/7 Station Access</li>
+    <li>Professional Customer Service</li>
+  </ul>
 </section>
 
-<section id="gallery">
-  <h2>Galerie</h2>
+<section>
+  <h2>Gallery</h2>
   <div class="gallery">
-    <img src="https://images.unsplash.com/photo-1570126681032-3a7c41f13b0d?auto=format&fit=crop&w=800&q=80" alt="chantier 1">
-    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" alt="chantier 2">
-    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80" alt="chantier 3">
+    <img src="https://www.canadianfuels.ca/wp-content/uploads/2020/09/fuel-retailing-hero.jpg">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBnQudJzOdrFY0vQkZGqSZAX53hbyAeS29ug&s">
+    <img src="https://imgix-prod.sgs.com/-/media/sgscorp/images/temporary/gas-station.cdn.en.1.jpg?fit=crop&crop=edges&auto=format&w=1200&h=630">
   </div>
 </section>
 
-<section id="contact">
-  <h2>Contactez-nous</h2>
-  <p>Email : contact@vebatiment.shop</p>
-  <p>Téléphone : +33 6 05 99 64 90</p>
-  <form class="contact-form">
-    <input type="text" placeholder="Nom">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Votre message"></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
-</section>
-
-<section id="map">
-  <h2>Adresse</h2>
-  <p>66 Avenue du Maréchal Foch, 78130 Les Mureaux, France</p>
-  <iframe src="https://www.google.com/maps?q=66+Avenue+du+Mar%C3%A9chal+Foch,+Les+Mureaux,+France&output=embed" allowfullscreen loading="lazy"></iframe>
+<section>
+  <h2>Contact</h2>
+  <div class="contact">
+    <p><strong>Email:</strong> support@torretahouse.shop</p>
+    <p><strong>Phone:</strong> +212687093103</p>
+    <p><strong>Address:</strong> ZENKAT 30 VOI DE CONTOURNEMENT, ROUTE CEUTA VERS TORRETA, TETOUAN, 93030, Morocco</p>
+  </div>
 </section>
 
 <footer>
-  &copy; 2025 V.E. BATIMENT — Tous droits réservés
+  &copy; 2025 STATION TORRETA. All rights reserved.
 </footer>
 
 </body>
